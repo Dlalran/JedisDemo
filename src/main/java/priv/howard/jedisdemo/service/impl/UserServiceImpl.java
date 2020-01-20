@@ -65,7 +65,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public User testRedisHash(String id) {
         /**
-         * TODO 手动转换Map和对象，对象属性转换存在错误
+         * TODO 手动转换Map和对象
          */
         String key = "user:" + id;
         Jedis jedis = jedisPool.getResource();

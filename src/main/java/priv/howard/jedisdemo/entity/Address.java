@@ -8,6 +8,6 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 public class Address {
-    private String sAddress;
-    private String hAddress;
+    private String saddress;
+    private String haddress;
 }
